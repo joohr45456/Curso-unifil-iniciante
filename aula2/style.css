@@ -1,0 +1,43 @@
+* {
+    margin: 0
+}
+/* Faz o header alinhar o título à esquerda e o nav à direita */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para os links de navegação */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Botões de navegação */
+.button {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Só pra mostrar que o main é separado */
+main {
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+p {
+    color:black;
+}
+h2 {
+    color:black;
+}
+footer {
+    text-align: center;
+}
